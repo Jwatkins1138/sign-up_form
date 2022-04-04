@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <title>Sign-Up Sheet</title>
+</head>
+<body>
+  <div id="sidebar">
+    <div id="banner">
+      <img id="logo" src="mpl_logo.svg">
+    </div>
+  </div>
+  <div id="main">
+    <div id="header">
+      <p>This is the general header text, it is wonderful and lovely, gaze upon it and tremble. I will now add some random lines to fill out some more space. ahhhh yes, there it is. Perhaps a bit more text as a treat.</p>
+      <p>Come forth!</p>
+    </div>
+    <div id="formcard">
+      <p>Create thineself!</p>
+      <div id="formbox">
+      <form id="form1">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </form>
+      <form id="form2">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="passwordconfirm">Confirm Password:</label>
+        <input type="password" id="passwordconfirm" name="passwordconfirm" required>
+
+      </form>
+      </div>
+    </div>
+    <div id="footer">
+      <input type="button" value="CREATE ACCOUNT" onclick="submitForms()"/>
+      <p>Already have an account? <a href="index.html">log in</a></p>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
